@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install @supabase/supabase-js @supabase/ssr openai googleapis date-fns html-to-text lucide-react clsx tailwind-merge class-variance-authority)",
+      "Bash(npm run build:*)",
+      "Bash(npx vercel --prod --yes)"
+    ]
+  }
+}
